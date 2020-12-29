@@ -33,7 +33,7 @@ Project structure
     * I reduced the number of Dusan Majer articles to 400
     * I filter out articles of "lazy" authors (authors who have written less than 100 articles)
     * I end up with a dataset containing articles from 5 authors, as you can see classes are still unbalanced and because of that model is likely to fail to classify outnumbered classes(Michael Voplatka, Tomaš Kohout).
-    ![image info](./figures/dataClasses.png)
+    ![image info](./Figures/dataClasses.png)
 - During data cleaning, I removed interpunction and stop words
 - To conclude I create a dataset containing 1475 articled from 5 authors
     
@@ -52,7 +52,7 @@ Project structure
 *Model evaluation*
 - model perform with accuracy 78,3 %
 - model perform poorly on outnumbered classes see confusion matrix
-![image info](./figures/confusionMatrix.png)
+![image info](./Figures/confusionMatrix.png)
 
 
 
